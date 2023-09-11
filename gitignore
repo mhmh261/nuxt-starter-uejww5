@@ -1,0 +1,108 @@
+# Generated manager Golang binary
+bin/manager
+# Created by https://www.gitignore.io/api/go,vim,emacs,visualstudiocode
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+# Org-mode
+.org-id-locations
+*_archive
+# flymake-mode
+*_flymake.*
+# eshell files
+/eshell/history
+/eshell/lastdir
+# elpa packages
+/elpa/
+# reftex files
+*.rel
+# AUCTeX auto folder
+/auto/
+# cask packages
+.cask/
+dist/
+# Flycheck
+flycheck_*.el
+# server auth directory
+/server/
+# projectiles files
+.projectile
+projectile-bookmarks.eld
+# directory configuration
+.dir-locals.el
+# saveplace
+places
+# url cache
+url/cache/
+# cedet
+ede-projects.el
+# smex
+smex-items
+# company-statistics
+company-statistics-cache.el
+# anaconda-mode
+anaconda-mode/
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Test binary, build with 'go test -c'
+*.test
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+# auto-generated tag files
+tags
+### VisualStudioCode ###
+.vscode/*
+.history
+# Local build tools
+Makefile
+controllers/suite_test.go
+controllers/runner_controller_test.go
+# End of https://www.gitignore.io/api/go,vim,emacs,visualstudiocode
+install/
+gcloud.json
+pull_secret
+must-gather.*
+testbin/
+config/samples/runner-secret.yaml
+config/samples/catalogsource.yaml
+certification.Dockerfile
+certification/
+hack/assets/release.yaml
+bundle/manifests
+bundle/metadata
+bundle/tests
+bundle/patches/related_images.yaml
+config/manager/kustomization.yaml
+.tmp
+bundle_tmp*
+catalogsource.yaml
+*.pyc
+community-operator
+index.db
+index.Dockerfile*
+vendor
+controllers/runner/runner.coverprofile
+config/manifests_k8s/bases
+config/manifests_k8s/resources.yaml
+config/manifests/bases
+config/manifests/resources.yaml
